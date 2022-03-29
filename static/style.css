@@ -1,0 +1,42 @@
+body {
+    background: red;
+    color: black;
+}
+body {
+       margin: 0
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #081e8a;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            list-style-type: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: lightslategray;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: lightslategray;
+            color: white;
+        }
+
+        .patty-bucket-div {
+
+            margin-left: 25%;
+            height: 1500px;
+            padding: 1px 16px;
+        }
